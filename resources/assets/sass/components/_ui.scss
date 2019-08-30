@@ -1,0 +1,227 @@
+body{
+    background-color: $body-bg;
+}
+
+.standardpage {
+    width:100%;
+    margin: 0 auto;
+}
+
+[contenteditable=true]:empty:before{
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+}
+
+.font-icon-header{
+    color: $font-icon-header-color;
+}
+
+.font-icon-body{
+    color: $font-icon-body-color;
+}
+
+.opacity-hover{
+    &:hover{
+        opacity: .6;
+    }
+}
+
+.btn{
+    &:focus, &:active, &:visited{
+        outline: 0 !important;
+    }
+}
+
+.btn-custom-header{
+    color: $btn-custom-header-color !important;
+    background-color: $btn-custom-header-bg !important;
+    border-color: $btn-custom-header-border !important;
+    a, p, span{
+        color: $navbar-bg;
+    }
+    &:hover, &.btnClicked{
+        color: $btn-custom-body-color !important;
+        background-color: $btn-custom-body-bg !important;
+        border-color: $btn-custom-body-border !important;
+        a, p, span{
+            color: $body-bg;
+        }
+        .font-icon-body{
+            color: $font-icon-header-color;
+        }
+    }
+}
+
+.btn-custom-body{
+    color: $btn-custom-body-color !important;
+    background-color: $btn-custom-body-bg !important;
+    border-color: $btn-custom-body-border !important;
+    a, p, span{
+        color: $body-bg;
+    }
+    &:hover{
+        background-color: $btn-custom-header-bg !important;
+        border-color: $btn-custom-header-border !important;
+        a, p, span{
+            color: $navbar-bg;
+        }
+        .font-icon-header{
+            color: $font-icon-body-color;
+        }
+    }
+}
+
+.btn-search-custom-header{
+    &:hover, :focus{
+        opacity: .6;
+        color: $btn-custom-header-color !important;
+        background-color: $btn-custom-header-bg !important;
+        border-color: $btn-custom-header-border !important;
+        a, p, span{
+            color: $navbar-bg;
+        }
+        .font-icon-body{
+            color: $font-icon-body-color;
+        }
+    }
+}
+
+.btn-for-post{
+    margin: 0px 10px;
+}
+
+.ajax-post-load-more{
+    padding: 20px 0px;
+}
+
+.wrapper-modals{
+    .modal{
+        .modal-dialog{
+            margin: 110px 10px 0 10px;
+            @media (min-width: 768px){
+                width: 555px;
+                margin: 60px auto;
+            }
+        }
+    }
+}
+
+.modal-backdrop{
+    opacity:0.9 !important;
+}
+
+.flex-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-img-style{
+    background: $border-color;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: .1px solid $border-color;
+    padding: 1px;
+}
+
+.divider-custom{
+    width: 96%;
+    height: 1px; 
+    border: 0; 
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+.hidden-dom-create-open{
+    z-index: 1050;
+    position: relative;
+}
+
+.hidden-dom-open{
+    position: fixed;
+    opacity: .6;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+.wrapper-header{
+    .col-sm-1, .col-md-1, .col-lg-1,
+    .col-sm-2, .col-md-2, .col-lg-2,
+    .col-sm-3, .col-md-3, .col-lg-3,
+    .col-sm-4, .col-md-4, .col-lg-4,
+    .col-sm-5, .col-md-5, .col-lg-5,
+    .col-sm-6, .col-md-6, .col-lg-6,
+    .col-sm-7, .col-md-7, .col-lg-7,
+    .col-sm-8, .col-md-8, .col-lg-8,
+    .col-sm-9, .col-md-9, .col-lg-9,
+    .col-sm-10, .col-md-10, .col-lg-10,
+    .col-sm-11, .col-md-11, .col-lg-11,
+    .col-sm-12, .col-md-12,  .col-lg-12{
+        padding: 0px;
+    }
+}
+
+.media{
+    margin-top: 0px !important;
+}
+
+.m-top-20{
+    margin-top: 20px;
+}
+
+textarea{
+    resize: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:focus{
+    outline: none !important;
+}
+
+.div-image img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.carousel{
+    .left, .right{
+        &.carousel-control{
+            background-image: none !important;
+        }
+    }
+    .item{
+        img{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            -o-object-fit: cover;
+        }
+    }
+}
+
+.text-for-after-name-info{
+    font-size: 15px;
+}
+
+.v-align-middle{
+    vertical-align: middle;
+}

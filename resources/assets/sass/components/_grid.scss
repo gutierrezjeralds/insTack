@@ -1,0 +1,273 @@
+/* For large monitor: */
+@media screen and (min-width: 1919px) {
+    body {
+        //background-color: violet !important;
+    }
+    .wrapper-home, .wrapper-profile{
+        .container{
+            //margin-left: 100px;
+        }
+    }
+}
+
+/* For large desktop: */
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+    body {
+        //background-color: lime !important;
+    }
+}
+
+/* For medium desktop: */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        //background-color: pink !important;
+    }
+    .wrapper-header{
+        .container{
+            width: 830px !important;
+        }
+    }
+    .wrapper-content{
+        .wrapper-home, .wrapper-profile, .wrapper-view, .wrapper-error{
+            .container{
+                //margin-left: 200px;
+            }
+            .wrapper-cover-photo{
+                .cover-photo-holder{
+                    //margin-left: -140px;
+                }
+            }
+            .btn-for-post{
+                .text-btn-for-post{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        //background-color: yellow !important;
+    }
+    #signin-signup{
+        #register{
+            .form-group{
+                .reg-first-name, .reg-month, .reg-day{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    .wrapper-header{
+        .navbar-header{
+            .sidebar-search{
+                margin-left: 70px;
+            }
+        }
+        .left-nav-move{
+            margin-top: 51px !important;
+            margin-left: 0px !important;
+        }
+    }
+    .wrapper-content{
+        .wrapper-home, .wrapper-profile, .wrapper-view, .wrapper-error{
+            .container{
+                //width: 510px !important;
+                //width: 50%;
+                //margin-left: 380px;
+            }
+            .btn-for-post{
+                i{
+                    //font-size: 2em;
+                }
+                .text-btn-for-post{
+                    //display: none;
+                }
+            }
+        }
+        .wrapper-avatar{
+            .a-avatar-change{
+                top: 135px !important;
+            }
+        }
+        .wrapper-cover-photo{
+            border: transparent !important;
+            .cover-photo-img{
+                position: relative !important;
+                left: 0px !important;
+                top: 0px !important;
+                width: 100% !important;
+                height: 350px !important;
+            }
+            .cover-position-text{
+                display: none !important;
+            }
+        }
+        .wrapper-create, .wrapper-modals, .wrapper-post-data{
+            #uploadAvatarModal{
+                .modal-dialog{
+                    width: 94% !important;
+                }
+            }
+        }
+    }
+}
+
+/* For mobile phones large: */
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+    body {
+        //background-color: red !important;
+    }
+    #signin-signup{
+        #register{
+            .form-group{
+                .reg-first-name, .reg-month, .reg-day{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    #app{
+        overflow-x: hidden;
+    }
+    .wrapper-header{
+        .navbar-header{
+            .nav-button-toggle{
+                z-index: 10;
+            }
+            .nav-title{
+                z-index: 10;
+                position: relative;
+            }
+            .sidebar-search{
+                position: relative !important;
+            }
+        }
+        .left-nav-move{
+            margin-top: 0px !important;
+            margin-left: 0px !important;
+        }
+    }
+    .wrapper-content {
+        .wrapper-home, .wrapper-profile, .wrapper-view, .wrapper-error{
+            padding-top: 110px !important;
+        }
+        .wrapper-avatar{
+            .a-avatar-change{
+                top: 135px !important;
+            }
+        }
+        .wrapper-cover-photo{
+            border: transparent !important;
+            .cover-photo-img{
+                position: relative !important;
+                left: 0px !important;
+                top: 0px !important;
+                width: 100% !important;
+                height: 350px !important;
+            }
+            .cover-position-text{
+                display: none !important;
+            }
+        }
+        .wrapper-create, .wrapper-modals, .wrapper-post-data{
+            #uploadAvatarModal{
+                .modal-dialog{
+                    width: 94% !important;
+                }
+            }
+        }
+    }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 666px) {
+    body {
+        //background-color: blue !important;
+    }
+    #signin-signup{
+        #register{
+            .form-group{
+                .reg-first-name, .reg-month, .reg-day{
+                    margin-bottom: 15px;
+                }
+                .btn-holder-footer{
+                    .to_login{
+                        span{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #app{
+        overflow-x: hidden;
+    }
+    .wrapper-header{
+        .navbar-header{
+            .nav-button-toggle{
+                z-index: 10;
+            }
+            .nav-title{
+                z-index: 10;
+                position: relative;
+            }
+            .sidebar-search{
+                position: relative !important;
+            }
+        }
+        .left-nav-move{
+            margin-top: 0px !important;
+            margin-left: 0px !important;
+        }
+    }
+    .wrapper-content {
+        .wrapper-home, .wrapper-profile, .wrapper-view, .wrapper-error{
+            padding-top: 110px !important;
+            .btn-for-post{
+                margin: 0px 3px;
+                i{
+                    font-size: 2em;
+                }
+                .text-btn-for-post{
+                    display: none;
+                }
+            }
+        }
+        .wrapper-cover-photo{
+            border: transparent !important;
+            .cover-photo-img{
+                position: relative !important;
+                left: 0px !important;
+                top: 0px !important;
+                width: 100% !important;
+                height: 350px !important;
+            }
+            .cover-position-text{
+                display: none !important;
+            }
+        }
+        .wrapper-avatar{
+            .a-avatar-change{
+                top: 135px !important;
+            }
+        }
+        .wrapper-create, .wrapper-modals, .wrapper-post-data{
+            .caption-bg-list{
+                margin-top: -40px !important;
+                li{
+                    width: 15px !important;
+                    height: 15px !important;
+                }
+            }
+            #uploadAvatarModal{
+                .modal-dialog{
+                    width: 94% !important;
+                }
+            }
+        }
+    }
+}

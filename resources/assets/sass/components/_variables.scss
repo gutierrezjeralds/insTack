@@ -1,0 +1,60 @@
+
+//Default Body and Navbar
+$body-bg: #ecf0f1;
+$navbar-bg: #1abc9c;
+
+//Text Color
+$white: #FFFFFF;
+$black: #000000;
+$ccc: #ccc;
+
+// Navbar
+$header-title-color: $body-bg; 
+$header-dropdown-icon-bg: $navbar-bg;
+
+//Fontawesome
+$font-icon-header-color: $body-bg;
+$font-icon-body-color: $navbar-bg;
+
+//Button customized
+$btn-custom-header-bg: $body-bg;
+$btn-custom-header-color: $black;
+$btn-custom-header-border: $ccc;
+
+$btn-custom-body-bg: $navbar-bg;
+$btn-custom-body-color: $black;
+$btn-custom-body-border: $ccc;
+
+// Borders
+$border-color: $ccc;
+
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+//$panel-default-heading-bg: #fff;
